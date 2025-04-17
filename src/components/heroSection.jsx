@@ -1,4 +1,4 @@
-
+import MarketListing from '../pages/market.jsx';
 export default function HeroSection(){
     return(
         <div
@@ -18,6 +18,7 @@ export default function HeroSection(){
             <button>Register</button>
             <button>Login</button>
             </div>
+
         </div>
         )
 }

@@ -4,8 +4,8 @@ export default function Footer() {
     return (
         <nav style={{
                 width: '100%',
-                height: '10vh',
-                backgroundColor: 'transparent',
+                height: '20px',
+                backgroundColor: '#708070',
                 color: '#000',
                 padding: '80px',
                 display: 'flex',

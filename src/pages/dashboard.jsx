@@ -6,11 +6,25 @@ import Header from "../components/header"
                 backgroundColor: '#DCF7D0',
                 color: '#000000',
                 height: '100vh',
-                width: '100vw',
+                width: '90vw',
+                display: 'flex',
+                justifyContent:'space-between', 
+                flexWrap:'wrap', 
+                padding:'20px'
+
 
             }}>
 
-                <h1>Dashboard</h1>
+                <h1>Dashboards</h1>
+                
+                <h2>Admin</h2>
+                <h2>Farmer</h2>
+                {/* Farmers can post their products on the market listing
+                    Buy products from other farmers
+                    
+                
+                */}
+                <h2>Buyer</h2>
             </div>
         )
     }
